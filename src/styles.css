@@ -17,3 +17,7 @@ body {
     overflow: hidden;
     position: relative;
 }   
+
+html {
+    overflow: hidden;
+}

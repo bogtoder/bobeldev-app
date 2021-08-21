@@ -11,7 +11,8 @@
 .main_div img{
     position: absolute;
     top: 8%;
-    width: 25%;
+    height: 40%;
+    max-width: 40vw;
     transform: rotate(10deg);
     
 }

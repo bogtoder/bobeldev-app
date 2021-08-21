@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --dark_purple:#00003b;
+    --medium_purple: #33003b;
+    --dark_red: #66003b;
+    --medium_red: #99003b;
+    --light_red: #cc003b;
+    --light_blue: #33e6f4;
+    --medium_blue: #0f87e1;
+    --other_blue: #8cc6e5;
+}
+
+body {
+    /* background-color: var(--medium_purple);  */
+    background: var(--dark_purple);
+    background: linear-gradient(0deg, var(--dark_purple) 0%, var(--medium_purple) 40%);
+    overflow: hidden;
+    position: relative;
+}   

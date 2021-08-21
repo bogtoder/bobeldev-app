@@ -1,0 +1,47 @@
+.main_div {
+    width:100vw; 
+    height:100vh; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    flex-direction: column;
+    position: relative;
+}
+
+.main_div img{
+    position: absolute;
+    top: 8%;
+    width: 25%;
+    transform: rotate(10deg);
+    
+}
+
+.main_div p {
+    font-size: calc(12px + 2vmin); 
+    font-family: Helvetica; 
+    color: var(--light_red);
+}
+
+
+/* SHAPE-DIVIDER */
+.shape_divider_wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shape_divider_wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 25vh;
+}
+
+.shape_divider_wave .shape-fill {
+    fill: var(--dark_red);
+}
+/* SHAPE-DIVIDER */
